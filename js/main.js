@@ -3,7 +3,7 @@ var nav = document.querySelector('nav');
 var topbar = document.getElementById("topbar");
 
           window.addEventListener('scroll',() =>{
-            if (window.scrollY > 60) {
+            if (window.scrollY > 50) {
               //back.classList.add('scroll');
               //back.style.backgroundColor = "red";
               topbar.classList.add('bg-light', 'shadow'); 
