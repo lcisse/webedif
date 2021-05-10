@@ -2,7 +2,7 @@
 var nav = document.querySelector('nav');
 
           window.addEventListener('scroll',() =>{
-            if (window.scrollY > 40) {
+            if (window.scrollY > 60) {
               //back.classList.add('scroll');
               //back.style.backgroundColor = "red";
               nav.classList.add('bg-light', 'shadow'); 
