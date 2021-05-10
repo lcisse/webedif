@@ -1,16 +1,18 @@
 
 var nav = document.querySelector('nav');
+var topbar = document.getElementById("topbar");
 
           window.addEventListener('scroll',() =>{
             if (window.scrollY > 60) {
               //back.classList.add('scroll');
               //back.style.backgroundColor = "red";
-              nav.classList.add('bg-light', 'shadow'); 
-              nav.classList.add('fixed-top', 'shadow');
+              topbar.classList.add('bg-light', 'shadow'); 
+              topbar.classList.add('fixed-top', 'shadow');
+              //topbar.classList.remove('fixed-top', 'shadow');
             }else{
               //back.classList.remove('scroll');
               //back.style.backgroundColor = "green";
-              nav.classList.remove('bg-light', 'shadow');
-              nav.classList.remove('fixed-top', 'shadow');
+              topbar.classList.remove('bg-light', 'shadow');
+              topbar.classList.remove('fixed-top', 'shadow');
             }
           })
